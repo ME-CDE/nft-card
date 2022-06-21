@@ -19,7 +19,7 @@
     border-radius: 15px;
     background-color: hsl(216, 50%, 16%);
     display: grid;
-    grid-template-columns: 85%;
+    grid-template-columns: 86%;
     grid-row-gap: 15px;
     padding: 24px 0;
     font-family: 'Outfit', sans-serif;
@@ -87,7 +87,7 @@ span{
     color: hsl(0, 0%, 100%);
 }
 
-span:active,h2:active,span:hover,h2:hover{
+span:hover,h2:hover{
     color: hsl(178, 100%, 50%);
 }
 .owner-details, h2, .nft-image{
@@ -106,7 +106,7 @@ span:active,h2:active,span:hover,h2:hover{
     background-image: url(./icon-view.svg);
     z-index: -1;
 }
-.active-state:active,.active-state:hover {
+.active-state:hover {
     content: "";
     background-color: hsla(178, 100%, 50%, 0.3);
     height: 99%;
