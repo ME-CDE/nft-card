@@ -14,14 +14,14 @@
     align-items: center;
 }
 .nft-container{
-    width: 350px;
+    width: 320px;
     max-width: 85vw;
     border-radius: 15px;
     background-color: hsl(216, 50%, 16%);
     display: grid;
     grid-template-columns: 86%;
-    grid-row-gap: 15px;
-    padding: 24px 0;
+    grid-row-gap: 18px;
+    padding: 21px 0;
     font-family: 'Outfit', sans-serif;
     box-shadow: 0 10px 20px 10px rgba(0, 0, 0,0.2),0 10px 20px 10px hsla(216, 50%, 16%, 0.2);
 }
@@ -37,14 +37,15 @@
 
 .nft-image img{
     width: 100%;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 h2{
     color: hsl(0, 0%, 100%);
     width: max-content;
+    font-size: 20px;
 }
 p{
-    font-size: 17px;
+    font-size: 16px;
     color: hsl(215, 51%, 70%);
 }
 .price,.eth,.time,.owner-details, .active-state{
@@ -110,7 +111,7 @@ span:hover,h2:hover{
     content: "";
     background-color: hsla(178, 100%, 50%, 0.3);
     height: 99%;
-    border-radius: 12px;
+    border-radius: 8px;
     z-index: 1;
 }
 
